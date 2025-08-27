@@ -43,6 +43,10 @@ start_kb = ReplyKeyboardMarkup(
 async def start_cmd(message: Message):
     await message.answer("👋 Salom! Men dasturlash intervyu savollari botiman.\nQuyidagilardan birini tanlang:", reply_markup=start_kb)
 
+@dp.message(Command("help"))
+async def start_cmd(message: Message):
+    await message.answer("Bu bot sizni it boyicha savol javob qilib tekshiradi")
+
 
 # ----------- SAVOL OLISH ------------
 @dp.message(F.text == "🎯 Savol olish")
