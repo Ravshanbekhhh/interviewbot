@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "question": "dastur nima?",
+        "answer": "Dastur bu ....."
+    },
+    {
+        "id": 2,
+        "question": "C++ cout qanday vazifa bajaradi",
+        "answer": "Cout bu chiqarish operatori yani malumotlarni consolega chiqaradi."
+    }
+]
